@@ -3,6 +3,9 @@ Concept to get live data from [earthquake.usgs.gov](https://earthquake.usgs.gov)
 
 Utilizing data from https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson_detail.php
 
+### Demo 
+https://dbggr.github.io/earthquake/
+
 ### Things to note
 * Does not use jQuery
 * Using [Axios](https://github.com/axios/axios) for http request
@@ -16,4 +19,3 @@ To compile and run this script you will need node & npm installed.
     git clone https://github.com/dbggr/earthquake.git
     npm install 
     npm run webpack
-    

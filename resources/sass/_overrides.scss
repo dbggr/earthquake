@@ -1,0 +1,16 @@
+.hero-body {
+    text-align: center;
+    @include breakpoint($mobile) {
+        padding: 1.5rem 0.75rem;
+    }
+}
+
+.title {
+    &:not(:last-child) {
+        margin-bottom: 0.2rem;
+    }
+}
+
+footer {
+    text-align: center;
+}

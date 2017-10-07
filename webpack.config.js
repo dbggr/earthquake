@@ -10,7 +10,7 @@ module.exports = {
     ]
   },
   output: {
-    path: path.resolve(__dirname, 'web', 'assets'),
+    path: path.resolve(__dirname, 'docs', 'assets'),
     publicPath: '/assets/',
     filename: 'js/[name].js',
   },
